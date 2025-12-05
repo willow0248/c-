@@ -2,12 +2,12 @@
 #include<stdio.h>
 int main(){
     int n;
-    int fish[100];
+    int fish[200];
     scanf("%d",&n);
     for(int i=0;i<n;i++){
         scanf("%d",&fish[i]);
     }
-    int cuter_number[100];
+    int cuter_number[200];
     cuter_number[0]=0;
     int cnt=0;
     for(int i=1;i<n;i++){
