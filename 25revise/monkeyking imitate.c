@@ -1,5 +1,6 @@
 #include <stdio.h>
 int main() {
+    //数组模拟
     int n, m, q;
     scanf("%d %d %d", &n, &m, &q);
     // 特殊情况：m=1时所有猴子都会退出
